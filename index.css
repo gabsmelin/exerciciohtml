@@ -1,5 +1,36 @@
+body {
+    margin: 0px;
+}
+
 div {
     display: flex;
     flex-direction: column;
-    font: bold;
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+}
+
+nav {
+
+    padding: 0vh 10vh;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #06AA48;
+}
+
+img {
+    height: 40vh;
+    width: 60vh;
 }
