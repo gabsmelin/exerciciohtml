@@ -5,13 +5,11 @@ body {
 div {
     display: flex;
     flex-direction: column;
-    background-color: black;
-    color: white;
     min-height: 100vh;
+    font: bold;
 }
 
 nav {
-
     padding: 0vh 10vh;
 }
 
